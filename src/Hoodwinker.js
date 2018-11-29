@@ -3,12 +3,16 @@
 module.exports = class Hoodwinker {
 
     constructor(original = null) {
-        this.hoodwinkTarget = original;
+        this.original = this.hoodwinkTarget = original;
         this.hoodwink = new Proxy(original, this);
     }
 
     setHoodwinkTarget(target) {
         this.hoodwinkTarget = target;
+    }
+
+    reset() {
+        this.hoodwinkTarget = this.original;
     }
 
     getPrototypeOf(_) {

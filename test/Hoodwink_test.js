@@ -30,6 +30,16 @@ describe('Hoodwinker', () => {
             hoodwink = hoodwinker.hoodwink;
         });
 
+        it('should reset the target', () => {
+            expect("a" in hoodwink).to.be.true;
+
+            hoodwinker.setHoodwinkTarget(target2);
+            expect("a" in hoodwink).to.be.false;
+
+            hoodwinker.reset();
+            expect("a" in hoodwink).to.be.true;
+        });
+
         it('should proxy setPrototypeOf', () => {
             const proto = {'isProto': true};
             const spy = sinon.spy(Object, "setPrototypeOf");
