@@ -1,0 +1,37 @@
+{
+  "name": "hoodwinker",
+  "version": "1.0.0",
+  "description": "Dynamic reference replacement",
+  "main": "src/Hoodwinker.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattLloyd101/Hoodwinker.git"
+  },
+  "keywords": [
+    "mocking",
+    "mock",
+    "proxy",
+    "reference"
+  ],
+  "author": "Matthew Lloyd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattLloyd101/Hoodwinker/issues"
+  },
+  "homepage": "https://github.com/MattLloyd101/Hoodwinker#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1",
+    "sinon-chai": "^3.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
