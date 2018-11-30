@@ -28,6 +28,9 @@ const mocked = { "original": false };
 hoodwinker.setHoodwinkTarget(mocked);
 
 console.log(fake); // { "original": false };
+
+hoodwinker.reset();
+console.log(fake); // { "original": true };
 ```
 
 ## Versioning
