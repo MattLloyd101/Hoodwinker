@@ -4,6 +4,7 @@
 [![npm version](https://badge.fury.io/js/hoodwinker.svg)](https://badge.fury.io/js/hoodwinker)
 [![dependencies Status](https://david-dm.org/MattLloyd101/Hoodwinker/status.svg)](https://david-dm.org/MattLloyd101/Hoodwinker)
 [![devDependencies Status](https://david-dm.org/MattLloyd101/Hoodwinker/dev-status.svg)](https://david-dm.org/MattLloyd101/Hoodwinker?type=dev)
+
 Dynamic reference replacement. Via Proxying we are able to re-route references for mocking purposes.
 
 ## Installation
